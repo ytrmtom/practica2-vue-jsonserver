@@ -1,19 +1,29 @@
-# biblioteca-proyecto-vue
+# 📚 Sistema de Gestión de Biblioteca
 
-## Project setup
-```
-npm install
-```
+Proyecto frontend con Vue 3, Bootstrap 5, Axios y json-server para simular una API REST.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 🚀 Funcionalidades
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- CRUD completo para:
+  - Libros
+  - Autores
+  - Categorías
+  - Usuarios
+  - Préstamos
+- Búsqueda y filtros avanzados
+- Diseño responsive con Bootstrap
+- Integración con json-server
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 🛠️ Tecnologías
+
+- Vue 3 (Composition API)
+- Vue Router
+- Axios
+- Bootstrap 5 + Bootstrap Icons
+- json-server (backend ficticio)
+
+## 📦 Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/biblioteca-vue.git
