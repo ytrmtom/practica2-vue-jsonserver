@@ -1,0 +1,251 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Ficción"
+    },
+    {
+      "id": 2,
+      "nombre": "Ciencia Ficción"
+    },
+    {
+      "id": 3,
+      "nombre": "Fantasía"
+    },
+    {
+      "id": 4,
+      "nombre": "Historia"
+    },
+    {
+      "id": 5,
+      "nombre": "Programación"
+    },
+    {
+      "nombre": "terror111",
+      "id": 6
+    }
+  ],
+  "autores": [
+    {
+      "id": 1,
+      "nombre": "George",
+      "apellido": "Orwell",
+      "nacionalidad": "Británico"
+    },
+    {
+      "id": 2,
+      "nombre": "J.R.R.",
+      "apellido": "Tolkien",
+      "nacionalidad": "Británico"
+    },
+    {
+      "id": 3,
+      "nombre": "Isaac",
+      "apellido": "Asimov",
+      "nacionalidad": "Ruso-Estadounidense"
+    },
+    {
+      "id": 4,
+      "nombre": "Dan",
+      "apellido": "Brown",
+      "nacionalidad": "Estadounidense"
+    },
+    {
+      "id": 5,
+      "nombre": "Eric",
+      "apellido": "Freeman",
+      "nacionalidad": "Estadounidense"
+    },
+    {
+      "nombre": "tomas",
+      "apellido": "romero",
+      "nacionalidad": "bolivia",
+      "id": 6
+    }
+  ],
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "1984",
+      "isbn": "9780451524935",
+      "fecha_publicacion": "1949-06-08",
+      "autor": 1,
+      "categoria": 1,
+      "estado": true
+    },
+    {
+      "id": 2,
+      "titulo": "Rebelión en la granja",
+      "isbn": "9780451526342",
+      "fecha_publicacion": "1945-08-17",
+      "autor": 1,
+      "categoria": 1,
+      "estado": true
+    },
+    {
+      "id": 3,
+      "titulo": "El Señor de los Anillos",
+      "isbn": "9780544003415",
+      "fecha_publicacion": "1954-07-29",
+      "autor": 2,
+      "categoria": 3,
+      "estado": true
+    },
+    {
+      "id": 4,
+      "titulo": "Fundación",
+      "isbn": "9780553293357",
+      "fecha_publicacion": "1951-05-01",
+      "autor": 3,
+      "categoria": 2,
+      "estado": true
+    },
+    {
+      "id": 5,
+      "titulo": "El Código Da Vinci",
+      "isbn": "9780307474278",
+      "fecha_publicacion": "2003-03-18",
+      "autor": 4,
+      "categoria": 1,
+      "estado": false
+    },
+    {
+      "id": 6,
+      "titulo": "Patrones de Diseño",
+      "isbn": "9780596007126",
+      "fecha_publicacion": "2004-01-01",
+      "autor": 5,
+      "categoria": 5,
+      "estado": true
+    },
+    {
+      "titulo": "Libro Ejemplo",
+      "isbn": "234234234",
+      "fecha_publicacion": "2025-07-11",
+      "autor": 6,
+      "categoria": 6,
+      "estado": true,
+      "id": 7,
+      "prestamos": [
+        {
+          "libro": 7,
+          "usuario": 6,
+          "fecha_prestamo": "2025-07-26",
+          "estado": true,
+          "id": 7
+        }
+      ],
+      "autor_nombre": "tomas romero",
+      "categoria_nombre": "terror111",
+      "disponible": false
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Ana",
+      "apellido": "Martínez",
+      "nacionalidad": "Mexicana",
+      "estado": true
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos",
+      "apellido": "Gómez",
+      "nacionalidad": "Colombiano",
+      "estado": true
+    },
+    {
+      "id": 3,
+      "nombre": "Lucía",
+      "apellido": "Pérez",
+      "nacionalidad": "Española",
+      "estado": true
+    },
+    {
+      "id": 4,
+      "nombre": "Miguel",
+      "apellido": "Torres",
+      "nacionalidad": "Chileno",
+      "estado": true
+    },
+    {
+      "id": 5,
+      "nombre": "Sofía",
+      "apellido": "Ramos",
+      "nacionalidad": "Argentina",
+      "estado": true
+    },
+    {
+      "nombre": "Usuario Ejemplo",
+      "apellido": "Apellido Ejemplo",
+      "nacionalidad": "Uruguay",
+      "estado": true,
+      "id": 6
+    }
+  ],
+  "prestamos": [
+    {
+      "id": 1,
+      "fecha_prestamo": "2024-01-10",
+      "fecha_devolucion": "2025-07-26",
+      "estado": false,
+      "libro": 1,
+      "usuario": 1,
+      "libro_titulo": "1984",
+      "usuario_nombre": "Ana Martínez"
+    },
+    {
+      "id": 2,
+      "fecha_prestamo": "2024-02-05",
+      "fecha_devolucion": "2025-07-26",
+      "estado": false,
+      "libro": 3,
+      "usuario": 2,
+      "libro_titulo": "El Señor de los Anillos",
+      "usuario_nombre": "Carlos Gómez"
+    },
+    {
+      "id": 3,
+      "fecha_prestamo": "2024-02-10",
+      "fecha_devolucion": "2024-02-20",
+      "estado": false,
+      "libro": 2,
+      "usuario": 3
+    },
+    {
+      "id": 4,
+      "fecha_prestamo": "2024-03-01",
+      "fecha_devolucion": "2025-07-26",
+      "estado": false,
+      "libro": 6,
+      "usuario": 5,
+      "libro_titulo": "Patrones de Diseño",
+      "usuario_nombre": "Sofía Ramos"
+    },
+    {
+      "libro": 4,
+      "usuario": 1,
+      "fecha_prestamo": "2025-07-26",
+      "estado": false,
+      "id": 5,
+      "libro_titulo": "Fundación",
+      "usuario_nombre": "Ana Martínez",
+      "fecha_devolucion": "2025-07-26"
+    },
+    {
+      "libro": 2,
+      "usuario": 3,
+      "fecha_prestamo": "2025-07-26",
+      "estado": true,
+      "id": 6
+    },
+    {
+      "libro": 7,
+      "usuario": 6,
+      "fecha_prestamo": "2025-07-26",
+      "estado": true,
+      "id": 7
+    }
+  ]
+}
