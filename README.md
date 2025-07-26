@@ -38,6 +38,7 @@ Proyecto frontend con Vue 3, Bootstrap 5, Axios y json-server para simular una A
 
 4. Inicia el servidor JSON Server:
    ```bash
+   dirigirse a la carpeta src/DB y ejecutar el siguiente comando:
    json-server --watch db.json --port 3000
 
 5. Abre el navegador y ve a:
